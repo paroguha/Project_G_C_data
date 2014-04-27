@@ -20,9 +20,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 10) in approx. 30 secs to a minute the R script creates a tidy dataset by running the following operations:
  
 	(a) Merges the training and the test sets to create one data set.
-	(b) Extracts only the measurements on the mean and standard 	deviation for each measurement. 
-	(c) Uses descriptive activity names to name the activities in the 	data set
-	(d) Creates a tidy_data set with the average of each variable for 	each activity and each subject. 
-	(e) It creates a table with 180 observations of 68 variables. 			(f) 30 subjects * 6 activities=180 rows.
-	(g) To make it readable in Rstudio I used command head(tidy_data) 	to read the first few rows or observations of the 68 variables. 
+	(b) Extracts only the measurements on the mean and standard deviation for each measurement. 
+	(c) Uses descriptive activity names to name the activities in the data set
+	(d) Creates a tidy_data set with the average of each variable for each activity and each subject. 
+	(e) It creates a table with 180 observations of 68 variables. 			
+	(f) 30 subjects * 6 activities = 180 rows.
+	(g) To make it readable in Rstudio I used command head(tidy_data) to read the first few rows 
+	or observations of the 68 variables. 
 
